@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    tools:context=".PopupTimetableActivity">
+
+
+    <TextView
+        android:id="@+id/textViewPuTT"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="40dp"
+        android:text="Branch"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinnerPuTTYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/year"
+        android:layout_alignParentEnd="true"
+        android:layout_alignEnd="@+id/textViewPuTT"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:layout_below="@+id/textViewPuTT"
+        android:padding="8dp"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        android:background="@drawable/round_edit_text">
+
+
+        <Button
+            android:id="@+id/buttonPuTTSelectFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:background="@drawable/round_button"
+            android:text="@string/select_file" />
+
+
+            <ImageView
+                android:id="@+id/imageViewPuTT"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/icon_no_image"
+                android:background="@drawable/background_image"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonPuTTUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="@string/upload"
+        android:background="@drawable/round_button"/>
+
+
+
+</RelativeLayout>

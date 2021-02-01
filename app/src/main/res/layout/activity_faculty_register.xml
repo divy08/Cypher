@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/background_app_img"
+    tools:context=".FacultyRegisterActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageViewFR"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/register_img"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerFRBranch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/branch"
+        android:layout_below="@+id/imageViewFR"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="140dp"
+        android:layout_marginLeft="120dp"
+        android:layout_alignParentEnd="true"/>
+
+
+
+    <EditText
+        android:id="@+id/editTextFRName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinnerFRBranch"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:inputType="text"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/editTextFREmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextFRName"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+
+
+    <EditText
+        android:id="@+id/editTextFRPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextFREmail"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/buttonFRReg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextFRPass"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Register"
+        android:background="@drawable/round_button"/>
+</RelativeLayout>

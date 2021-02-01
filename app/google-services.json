@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "775049093331",
+    "firebase_url": "https://cypher-e0f15-default-rtdb.firebaseio.com",
+    "project_id": "cypher-e0f15",
+    "storage_bucket": "cypher-e0f15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775049093331:android:96a754d07b5a614d13f426",
+        "android_client_info": {
+          "package_name": "com.insane.cypher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775049093331-9e8a0t6ngdopj28icjo7v7vcmr6chj5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.insane.cypher",
+            "certificate_hash": "d1be582d8115aab0820d91ac423f3bd80340c920"
+          }
+        },
+        {
+          "client_id": "775049093331-h7aflmsv9gsurcgdfna8ovm4nv81030f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt07ApljZiakgCPVSR5Ur7q7CPYiBA2ak"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775049093331-h7aflmsv9gsurcgdfna8ovm4nv81030f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

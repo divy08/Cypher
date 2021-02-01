@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Cypher</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
+    <string name="Timetable" />
+    <string name="timetable">Timetable</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="notes">Notes</string>
+    <string name="choice_login_option">Choice login option</string>
+    <string name="faculty">Faculty</string>
+    <string name="student">STUDENT</string>
+    <string name="upload">Upload</string>
+    <string name="select_file">Select File</string>
+    <string-array name="branch">
+        <item>CSE</item>
+        <item>EE</item>
+        <item>EC</item>
+        <item>Civil</item>
+        <item>ME</item>
+        <item>Pharma</item>
+        <item>MBA</item>
+    </string-array>
+    <string-array name="year">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+    </string-array>
+</resources>

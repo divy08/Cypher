@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/background_app_img"
+    tools:context=".StudentRegisterActivity">
+
+
+
+    <ImageView
+        android:id="@+id/imageViewSR"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/register_img"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"/>
+
+
+    <Spinner
+        android:id="@+id/spinnerSRBranch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/branch"
+        android:layout_below="@+id/imageViewSR"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        />
+
+
+    <Spinner
+        android:id="@+id/spinnerSRYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/year"
+        android:layout_below="@+id/imageViewSR"
+        android:layout_alignParentEnd="true"
+        android:layout_alignEnd="@+id/spinnerSRBranch"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="0dp"
+        />
+
+
+
+    <EditText
+        android:id="@+id/editTextSRName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/spinnerSRBranch"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:inputType="text"
+        android:hint="Name"/>
+
+    <EditText
+        android:id="@+id/editTextSREmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextSRName"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:inputType="textEmailAddress"
+        android:hint="Email"/>
+
+
+    <EditText
+        android:id="@+id/editTextSRPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextSREmail"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/buttonSR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextSRPass"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Register"
+        android:background="@drawable/round_button"/>
+
+
+</RelativeLayout>
